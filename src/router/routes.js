@@ -2,6 +2,8 @@ import Dashboard from '../containers/Dashboard';
 import Transactions from '../containers/Transactions';
 import Accounts from '../containers/Accounts';
 import Reports from '../containers/Reports';
+import Profile from '../containers/Profile';
+import Files from '../containers/Files';
 import Settings from '../containers/Settings';
 import WorkInProgress from '../containers/WorkInProgress';
 
@@ -42,11 +44,33 @@ export default [
     icon: 'shopping basket',
     component: WorkInProgress
   },
+
+  {
+    path: '/files',
+    exact: true,
+    label: 'Files',
+    icon: 'file',
+    component: Files
+  },
+
   {
     path: '/settings',
     exact: true,
-    label: 'Settings',
-    icon: 'options',
+    label: 'Currrency',
+    icon: 'dollar',
     component: Settings
-  }
+  },
+
+
+
+  {
+    path: '/profile',
+    exact: true,
+    label: 'Profile',
+    icon: 'user',
+    component: Profile
+  },
+
+
+
 ];
