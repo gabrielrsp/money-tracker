@@ -38,14 +38,6 @@ export default [
     component: Reports
   },
   {
-    path: '/budget',
-    exact: false,
-    label: 'Budget',
-    icon: 'shopping basket',
-    component: WorkInProgress
-  },
-
-  {
     path: '/files',
     exact: true,
     label: 'Files',

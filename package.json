@@ -7,7 +7,6 @@
     "@types/jest": "^23.3.9",
     "@types/lodash": "^4.14.164",
     "@types/node": "^12.19.3",
-    "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
     "@types/react-redux": "^7.1.9",
     "@types/react-router-dom": "^4.3.1",
@@ -39,9 +38,11 @@
     "semantic-ui-react": "^2.0.1",
     "stats-lite": "^2.2.0",
     "typesafe-actions": "^2.2.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "yarn-deduplicate": "^3.1.0"
   },
   "devDependencies": {
+    "@types/react-dom": "^0.14.23",
     "eslint-plugin-react": "^7.7.0",
     "react-test-renderer": "^16.6.1",
     "surge": "^0.21.6"
