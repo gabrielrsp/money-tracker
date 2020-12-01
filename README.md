@@ -20,12 +20,14 @@ Our software is distributed under the MIT License.
 
 ## Installation
 
-### Prerequisites
+### Prerequisites On Bare Metal
 - npm, which you can install by running: 
 
     ```npm install npm@latest –g```
 
-### How to install
+### Prerequisites on Docker
+- docker 
+### How to install on Bare Metal
 * Clone the repo from this website, then
 * In command line:
   * ```$ git clone https://github.com/ayastreb/money-tracker.git```
@@ -40,6 +42,19 @@ Our software is distributed under the MIT License.
  And start developing for contribution.
  
  If any questions arise, please see the [open issues](https://github.com/ayastreb/money-tracker/issues) tab as some of them might have already been answered. 
+
+### How to install on Docker
+* Clone the repo from this website, then
+* In command line:
+  * ```$ git clone https://github.com/ayastreb/money-tracker.git```
+  * ```$ cd money-tracker```
+  * ```$ docker build . -t <myimage>```
+  * ```$ docker run -itd --name moneytracker -p 3000:3000 <myimage>```  
+    > **note:** \<myimage\> can be any name you want  
+  
+At this point you should see the app running on  
+ ```http://localhost:3000``` or ```http://your-server-ip:3000``` 
+
 
 ## Contributing
 
